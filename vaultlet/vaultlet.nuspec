@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vaultlet</id>
+    <version>1.0.0</version>
+    <title>Vaultlet</title>
+    <authors>Steven Li</authors>
+    <owners>Vaultlet</owners>
+    <licenseUrl>https://github.com/Vaultlet/Vaultlet/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/Vaultlet/Vaultlet</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Vaultlet/Vaultlet/main/assets/vaultlet-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Vaultlet is an open source Python app that helps you manage encrypted secrets and credentials in a streamlined, scriptable way.</description>
+    <summary>A Python-based secret and credential manager.</summary>
+    <tags>vault secrets encryption python cli credential-manager</tags>
+    <dependencies>
+      <dependency id="python" version="[3.8.0,4.0.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

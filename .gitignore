@@ -1,0 +1,26 @@
+# Chocolatey build artifacts
+*.nupkg
+
+# Test install folders
+*.test
+*.installed
+*.choco
+
+# Chocolatey install logs
+*.log
+
+# Tools/scripts backups
+*.bak
+
+# Windows/OS junk
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PowerShell cache
+*.ps1xml
