@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vaultlet</id>
     <version>1.0.0</version>
     <title>Vaultlet</title>
-    <authors>Steven Li</authors>
+    <authors>Vaultlet</authors>
     <owners>Vaultlet</owners>
     <licenseUrl>https://github.com/Vaultlet/Vaultlet/blob/main/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Vaultlet/Vaultlet</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/Vaultlet/Vaultlet/main/assets/vaultlet-icon.png</iconUrl>
+    <docsUrl>https://github.com/Vaultlet/Vaultlet#readme</docsUrl>
+    <bugTrackerUrl>https://github.com/Vaultlet/Vaultlet/issues</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/Vaultlet/chocolatey-packages</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Vaultlet is an open source Python app that helps you manage encrypted secrets and credentials in a streamlined, scriptable way.</description>
-    <summary>A Python-based secret and credential manager.</summary>
-    <tags>vault secrets encryption python cli credential-manager</tags>
+    <description>Vaultlet is a lightweight command-line tool for securely injecting secrets into application processes using the system keyring.</description>
+    <summary>Secure secret injection tool for developers and CLI workflows.</summary>
+    <tags>secrets cli vaultlet python</tags>
     <dependencies>
       <dependency id="python" version="[3.8.0,4.0.0)" />
     </dependencies>
   </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
 </package>
